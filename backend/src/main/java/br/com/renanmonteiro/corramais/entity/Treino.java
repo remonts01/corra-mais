@@ -22,6 +22,8 @@ public class Treino {
     
     private String tempo;
 
+    public Treino() { }
+
     public Treino(String descricao, String nome, int distancia, String tempo) {
         this.descricao = descricao;
         this.nome = nome;
